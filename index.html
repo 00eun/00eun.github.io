@@ -8,6 +8,32 @@
     <title>Clone Momentum</title>
   </head>
   <body>
+    <!-- 1.실시간 시계 -->
+    <div class="clock">00:00:00</div>
+
+    <!-- 2.로컬 스토리지를 사용한 로그인 -->
+    <div class="login">
+      <input
+        type="text"
+        class="username_input"
+        id="username_input"
+        placeholder="이름을 입력하세요"
+      />
+      <div class="username_show"></div>
+    </div>
+    <!-- 3.로컬 스토리지를 사용한 투두리스트 -->
+    <div class="todo_input">
+      <input type="text" placeholder="오늘의 할일" />
+      <button class="todo_add_btn">GO</button>
+    </div>
+    <ul class="todo_list">
+      <li>
+        <p>오늘의 할일</p>
+        <button>❌</button>
+      </li>
+    </ul>
+    <!-- 4.랜덤 배경 이미지 -->
+    <!-- 5.날씨와 위치 (geolocation) -->
     <script src="app.js"></script>
   </body>
 </html>
